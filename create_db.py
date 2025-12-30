@@ -1,7 +1,8 @@
 # create_db.py
 
 
-from project.app import app, db
+from project.config import app, db
+from project import models
 
 
 with app.app_context():
